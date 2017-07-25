@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #CCCCCC;
+        }
+
+    </style>
+</head>
+<body>
+<input type="button"value="1"/>
+<input type="button"value="2"/>
+<input type="button"value="3"/>
+
+
+</body>
+<script>
+    <!--去重1-->
+//    var arr=[1,1,1,1,1,'1','1','1','1',null,null,NaN,NaN];
+//    var newArr =Array.from(new Set(arr));
+//    console.log(newArr)
+
+//        去重2
+    let array = Array.from(new Set([1, 1, 1, 2, 3, 2, 4]));
+    console.log(array)
+
+</script>
+
+</html>
